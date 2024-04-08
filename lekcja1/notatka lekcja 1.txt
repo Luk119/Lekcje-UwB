@@ -1,0 +1,20 @@
+metody do list:
+- append(x) - Dodaje element do końca listy,
+- extend(L) rozszerza listę poprzez dołączenie wszystkich elementów podanej listy L,
+- insert(i, x) - umieszcza element x na podaną pozycję listy i, np. nazwaLista.insert(0,'Ala')
+- remove(x) - usuwa pierwszy napotkany element z listy, którego wartością jest x.
+- pop([i]) - usuwa element z podanej pozycji na liście i zwraca go jako wynik.
+- index(x) - zwraca indeks pierwszego elementu listy, którego wartością jest x, np. cars.index('BMW')
+- count(x) - zwraca liczbę wystąpień elementu x na liście.
+- sort() - sortuje elementy na liście, w niej samej
+- reverse() - odwraca porządek elementów listy.
+
+metody do słowników:
+
+- var_dict.clear() - usuwa wszystkie klucze ze słownika var_dict
+- var_dict.get(klucz) - zwraca wartość dla podanego klucza, gdy klucza nie ma w słowniku zwraca None
+- var_dict.has_key(klucz) - zwraca True gdy klucz jest w słowniku, False w przeciwnym razie,
+- var_dict.items() - zwraca listę dwuelementowych krotek (klucz, wartość)
+- var_dict.keys() - zwraca listę wszystkich kluczy
+- var_dict.values() - zwraca listę wszystkich wartości
+
